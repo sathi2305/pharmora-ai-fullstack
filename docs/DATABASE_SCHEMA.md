@@ -1,0 +1,4 @@
+# Database Schema
+Postgres: users(id UUID PK, email UNIQUE, password_hash, full_name, age, gender, preferred_language, health_profile JSONB); medicines(id PK, brand_name, generic_name, composition TEXT[], mrp, atc_code, fts TSVECTOR); user_medicines(id PK, user_id FK, medicine_id FK, dosage, adherence_history JSONB); health_metrics(id PK, user_id FK, metric_type, value, measured_at); chat_history(id PK, user_id FK, role, message, language)
+Indexes: UNIQUE(email), GIN(fts), BTREE(user_id, measured_at DESC)
+Neo4j: Nodes Drug, Enzyme CYP450, Gene, AdverseEvent; Rel Drug-[:METABOLIZED_BY]->Enzyme, Drug-[:INHIBITS]->Enzyme, Gene-[:ENCODES]->Enzyme, Drug-[:CAUSES]->AdverseEvent

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sathi/Downloads/pharmora-ai-fullstack/pharmora-ai-fullstack/frontend/app/globals.css"],"sourcesContent":["@tailwind base; @tailwind components; @tailwind utilities; :root{--primary:#39577D;--accent:#0E7C86;}"],"names":[],"mappings":"AAAA;;AAAgB;;AAAsB;;AAAqB"}}]
+}

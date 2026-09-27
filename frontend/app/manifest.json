@@ -1,0 +1,11 @@
+
+{
+  "name": "Pharmora AI - Empathetic Health Companion",
+  "short_name": "Pharmora",
+  "description": "12 languages, Medi chatbot, pill vision, offline",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#39577D",
+  "icons": [{"src": "/icon-512.png","sizes":"512x512","type":"image/png"}]
+}

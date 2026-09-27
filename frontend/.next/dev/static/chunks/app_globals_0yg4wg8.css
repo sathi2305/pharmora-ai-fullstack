@@ -1,0 +1,13 @@
+/* [project]/app/globals.css [app-client] (css) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --primary: #39577d;
+  --accent: #0e7c86;
+}
+
+/*# sourceMappingURL=app_globals_0yg4wg8.css.map*/

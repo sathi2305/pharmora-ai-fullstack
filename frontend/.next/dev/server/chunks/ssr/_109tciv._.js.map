@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sathi/Downloads/pharmora-ai-fullstack/pharmora-ai-fullstack/frontend/app/layout.tsx"],"sourcesContent":["\nimport './globals.css'\nexport const metadata = { title: 'Pharmora AI', description: 'Your Empathetic AI Health Companion' }\nexport default function RootLayout({children}:{children:React.ReactNode}) {\n  return (<html lang=\"en\"><body className=\"bg-[#F5F7FA] text-[#1B2430]\">{children}</body></html>)\n}\n"],"names":["metadata","title","description","RootLayout","children","lang","className"],"mappings":";;;;;;;;;AAEO,MAAMA,WAAW;IAAEC,OAAO;IAAeC,aAAa;AAAsC;AACpF,SAASC,WAAW,EAACC,QAAQ,EAA4B;IACtE,qBAAQ,8OAAC;QAAKC,MAAK;kBAAK,cAAA,8OAAC;YAAKC,WAAU;sBAA+BF;;;;;;;;;;;AACzE"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sathi/Downloads/pharmora-ai-fullstack/pharmora-ai-fullstack/frontend/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
